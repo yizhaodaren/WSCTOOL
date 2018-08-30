@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64112A2A213795D70045517F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A29213795D70045517F /* AppDelegate.m */; };
+		64112A2D213795D70045517F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A2C213795D70045517F /* ViewController.m */; };
+		64112A30213795D70045517F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64112A2E213795D70045517F /* Main.storyboard */; };
+		64112A32213795D80045517F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64112A31213795D80045517F /* Assets.xcassets */; };
+		64112A35213795D80045517F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64112A33213795D80045517F /* LaunchScreen.storyboard */; };
+		64112A38213795D80045517F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A37213795D80045517F /* main.m */; };
+		64112A42213795D80045517F /* WSCTOOLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A41213795D80045517F /* WSCTOOLTests.m */; };
+		64112A4D213795D80045517F /* WSCTOOLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A4C213795D80045517F /* WSCTOOLUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64112A3E213795D80045517F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64112A1D213795D70045517F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64112A24213795D70045517F;
+			remoteInfo = WSCTOOL;
+		};
+		64112A49213795D80045517F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64112A1D213795D70045517F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64112A24213795D70045517F;
+			remoteInfo = WSCTOOL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64112A25213795D70045517F /* WSCTOOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSCTOOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64112A28213795D70045517F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64112A29213795D70045517F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64112A2B213795D70045517F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64112A2C213795D70045517F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64112A2F213795D70045517F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64112A31213795D80045517F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64112A34213795D80045517F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64112A36213795D80045517F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64112A37213795D80045517F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64112A3D213795D80045517F /* WSCTOOLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSCTOOLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64112A41213795D80045517F /* WSCTOOLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSCTOOLTests.m; sourceTree = "<group>"; };
+		64112A43213795D80045517F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64112A48213795D80045517F /* WSCTOOLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSCTOOLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64112A4C213795D80045517F /* WSCTOOLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSCTOOLUITests.m; sourceTree = "<group>"; };
+		64112A4E213795D80045517F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64112A22213795D70045517F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64112A3A213795D80045517F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64112A45213795D80045517F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64112A1C213795D70045517F = {
+			isa = PBXGroup;
+			children = (
+				64112A27213795D70045517F /* WSCTOOL */,
+				64112A40213795D80045517F /* WSCTOOLTests */,
+				64112A4B213795D80045517F /* WSCTOOLUITests */,
+				64112A26213795D70045517F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64112A26213795D70045517F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64112A25213795D70045517F /* WSCTOOL.app */,
+				64112A3D213795D80045517F /* WSCTOOLTests.xctest */,
+				64112A48213795D80045517F /* WSCTOOLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64112A27213795D70045517F /* WSCTOOL */ = {
+			isa = PBXGroup;
+			children = (
+				64112A5A213795E30045517F /* AppDelegate */,
+				64112A5B213795F70045517F /* Main */,
+			);
+			path = WSCTOOL;
+			sourceTree = "<group>";
+		};
+		64112A40213795D80045517F /* WSCTOOLTests */ = {
+			isa = PBXGroup;
+			children = (
+				64112A41213795D80045517F /* WSCTOOLTests.m */,
+				64112A43213795D80045517F /* Info.plist */,
+			);
+			path = WSCTOOLTests;
+			sourceTree = "<group>";
+		};
+		64112A4B213795D80045517F /* WSCTOOLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64112A4C213795D80045517F /* WSCTOOLUITests.m */,
+				64112A4E213795D80045517F /* Info.plist */,
+			);
+			path = WSCTOOLUITests;
+			sourceTree = "<group>";
+		};
+		64112A5A213795E30045517F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				64112A28213795D70045517F /* AppDelegate.h */,
+				64112A29213795D70045517F /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		64112A5B213795F70045517F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				64112A2B213795D70045517F /* ViewController.h */,
+				64112A2C213795D70045517F /* ViewController.m */,
+				64112A2E213795D70045517F /* Main.storyboard */,
+				64112A31213795D80045517F /* Assets.xcassets */,
+				64112A33213795D80045517F /* LaunchScreen.storyboard */,
+				64112A36213795D80045517F /* Info.plist */,
+				64112A37213795D80045517F /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64112A24213795D70045517F /* WSCTOOL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64112A51213795D80045517F /* Build configuration list for PBXNativeTarget "WSCTOOL" */;
+			buildPhases = (
+				64112A21213795D70045517F /* Sources */,
+				64112A22213795D70045517F /* Frameworks */,
+				64112A23213795D70045517F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSCTOOL;
+			productName = WSCTOOL;
+			productReference = 64112A25213795D70045517F /* WSCTOOL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64112A3C213795D80045517F /* WSCTOOLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64112A54213795D80045517F /* Build configuration list for PBXNativeTarget "WSCTOOLTests" */;
+			buildPhases = (
+				64112A39213795D80045517F /* Sources */,
+				64112A3A213795D80045517F /* Frameworks */,
+				64112A3B213795D80045517F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64112A3F213795D80045517F /* PBXTargetDependency */,
+			);
+			name = WSCTOOLTests;
+			productName = WSCTOOLTests;
+			productReference = 64112A3D213795D80045517F /* WSCTOOLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64112A47213795D80045517F /* WSCTOOLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64112A57213795D80045517F /* Build configuration list for PBXNativeTarget "WSCTOOLUITests" */;
+			buildPhases = (
+				64112A44213795D80045517F /* Sources */,
+				64112A45213795D80045517F /* Frameworks */,
+				64112A46213795D80045517F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64112A4A213795D80045517F /* PBXTargetDependency */,
+			);
+			name = WSCTOOLUITests;
+			productName = WSCTOOLUITests;
+			productReference = 64112A48213795D80045517F /* WSCTOOLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64112A1D213795D70045517F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = WSC;
+				TargetAttributes = {
+					64112A24213795D70045517F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					64112A3C213795D80045517F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 64112A24213795D70045517F;
+					};
+					64112A47213795D80045517F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 64112A24213795D70045517F;
+					};
+				};
+			};
+			buildConfigurationList = 64112A20213795D70045517F /* Build configuration list for PBXProject "WSCTOOL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64112A1C213795D70045517F;
+			productRefGroup = 64112A26213795D70045517F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64112A24213795D70045517F /* WSCTOOL */,
+				64112A3C213795D80045517F /* WSCTOOLTests */,
+				64112A47213795D80045517F /* WSCTOOLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64112A23213795D70045517F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64112A35213795D80045517F /* LaunchScreen.storyboard in Resources */,
+				64112A32213795D80045517F /* Assets.xcassets in Resources */,
+				64112A30213795D70045517F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64112A3B213795D80045517F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64112A46213795D80045517F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64112A21213795D70045517F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64112A2D213795D70045517F /* ViewController.m in Sources */,
+				64112A38213795D80045517F /* main.m in Sources */,
+				64112A2A213795D70045517F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64112A39213795D80045517F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64112A42213795D80045517F /* WSCTOOLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64112A44213795D80045517F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64112A4D213795D80045517F /* WSCTOOLUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64112A3F213795D80045517F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64112A24213795D70045517F /* WSCTOOL */;
+			targetProxy = 64112A3E213795D80045517F /* PBXContainerItemProxy */;
+		};
+		64112A4A213795D80045517F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64112A24213795D70045517F /* WSCTOOL */;
+			targetProxy = 64112A49213795D80045517F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64112A2E213795D70045517F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64112A2F213795D70045517F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64112A33213795D80045517F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64112A34213795D80045517F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64112A4F213795D80045517F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64112A50213795D80045517F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64112A52213795D80045517F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WSCTOOL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSC.WSCTOOL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64112A53213795D80045517F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WSCTOOL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSC.WSCTOOL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64112A55213795D80045517F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WSCTOOLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSC.WSCTOOLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSCTOOL.app/WSCTOOL";
+			};
+			name = Debug;
+		};
+		64112A56213795D80045517F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WSCTOOLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSC.WSCTOOLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSCTOOL.app/WSCTOOL";
+			};
+			name = Release;
+		};
+		64112A58213795D80045517F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WSCTOOLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSC.WSCTOOLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WSCTOOL;
+			};
+			name = Debug;
+		};
+		64112A59213795D80045517F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WSCTOOLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSC.WSCTOOLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WSCTOOL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64112A20213795D70045517F /* Build configuration list for PBXProject "WSCTOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64112A4F213795D80045517F /* Debug */,
+				64112A50213795D80045517F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64112A51213795D80045517F /* Build configuration list for PBXNativeTarget "WSCTOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64112A52213795D80045517F /* Debug */,
+				64112A53213795D80045517F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64112A54213795D80045517F /* Build configuration list for PBXNativeTarget "WSCTOOLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64112A55213795D80045517F /* Debug */,
+				64112A56213795D80045517F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64112A57213795D80045517F /* Build configuration list for PBXNativeTarget "WSCTOOLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64112A58213795D80045517F /* Debug */,
+				64112A59213795D80045517F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64112A1D213795D70045517F /* Project object */;
+}
