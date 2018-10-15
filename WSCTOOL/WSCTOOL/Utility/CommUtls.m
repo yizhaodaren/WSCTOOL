@@ -8,6 +8,7 @@
 
 #import "CommUtls.h"
 #import <CommonCrypto/CommonDigest.h>
+#import <AVFoundation/AVFoundation.h>
 @implementation CommUtls
 
 /**
@@ -393,6 +394,53 @@
     
 //    设置字体
 //      _titleLable.font = [UIFont fontWithName:@"Helvetica-BoldOblique" size:24];
+}
+//把秒转换成 分秒 03:45
++(NSString *)convertToMSStringWithS:(NSTimeInterval)time{
+    NSInteger min = time / 60;
+    NSInteger sec =(NSInteger)time % 60;
+    return [NSString stringWithFormat:@"%02ld:%02ld",min,sec];
+    
+}
+
+// 获得Info.plist数据字典
++(NSDictionary *)getInfoDictionary {
+    NSDictionary *infoDict = [NSBundle mainBundle].localizedInfoDictionary;
+    if (!infoDict || !infoDict.count) {
+        infoDict = [NSBundle mainBundle].infoDictionary;
+    }
+    if (!infoDict || !infoDict.count) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Info" ofType:@"plist"];
+        infoDict = [NSDictionary dictionaryWithContentsOfFile:path];
+    }
+    return infoDict ? infoDict : @{};
+}
+
+//改变图片的颜色
++(UIImage *)Chanage:(UIImage *)image WithColor:(UIColor *)color
+{
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextTranslateCTM(context, 0, image.size.height);
+    CGContextScaleCTM(context, 1.0, -1.0);
+    CGContextSetBlendMode(context, kCGBlendModeNormal);
+    CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
+    CGContextClipToMask(context, rect, image.CGImage);
+    [color setFill];
+    CGContextFillRect(context, rect);
+    UIImage*newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+// 获取视频／音频文件的总时长
++ (CGFloat)getFileDuration:(NSURL*)URL {
+    NSDictionary *opts = [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:NO] forKey:AVURLAssetPreferPreciseDurationAndTimingKey];
+    AVURLAsset *asset = [AVURLAsset URLAssetWithURL:URL options:opts];
+    
+    CMTime duration = asset.duration;
+    float durationSeconds = CMTimeGetSeconds(duration);
+    
+    return durationSeconds;
 }
 
 @end

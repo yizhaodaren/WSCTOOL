@@ -13,6 +13,11 @@
 		18DFA3DC21743D3D0088D193 /* testBezierPatihView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3CC21743D3D0088D193 /* testBezierPatihView.m */; };
 		18DFA3DD21743D3D0088D193 /* CommUtls.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3D421743D3D0088D193 /* CommUtls.m */; };
 		18DFA3DE21743D3D0088D193 /* NSString+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3D721743D3D0088D193 /* NSString+time.m */; };
+		18DFA405217473190088D193 /* UIView+layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA404217473190088D193 /* UIView+layout.m */; };
+		18DFA4082174745B0088D193 /* testlayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA4072174745B0088D193 /* testlayoutVC.m */; };
+		18DFA40C217478BC0088D193 /* SCBottomPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA40B217478BC0088D193 /* SCBottomPushView.m */; };
+		18DFA41021747AB90088D193 /* MOLClipMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA40E21747AB90088D193 /* MOLClipMusicView.m */; };
+		18DFA41321747B1F0088D193 /* TEST_SCBottomPushViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA41221747B1F0088D193 /* TEST_SCBottomPushViewVC.m */; };
 		64112A2A213795D70045517F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A29213795D70045517F /* AppDelegate.m */; };
 		64112A2D213795D70045517F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A2C213795D70045517F /* ViewController.m */; };
 		64112A30213795D70045517F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64112A2E213795D70045517F /* Main.storyboard */; };
@@ -40,6 +45,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		18DFA4002174484F0088D193 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		18DFA3C421743D3D0088D193 /* ELCVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCVFlowLayout.h; sourceTree = "<group>"; };
 		18DFA3C521743D3D0088D193 /* ELCVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCVViewController.m; sourceTree = "<group>"; };
@@ -57,6 +75,16 @@
 		18DFA3D621743D3D0088D193 /* NSString+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+time.h"; sourceTree = "<group>"; };
 		18DFA3D721743D3D0088D193 /* NSString+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+time.m"; sourceTree = "<group>"; };
 		18DFA3D821743D3D0088D193 /* NSString+SSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSS.h"; sourceTree = "<group>"; };
+		18DFA403217473190088D193 /* UIView+layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+layout.h"; sourceTree = "<group>"; };
+		18DFA404217473190088D193 /* UIView+layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+layout.m"; sourceTree = "<group>"; };
+		18DFA4062174745B0088D193 /* testlayoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testlayoutVC.h; sourceTree = "<group>"; };
+		18DFA4072174745B0088D193 /* testlayoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testlayoutVC.m; sourceTree = "<group>"; };
+		18DFA40A217478BC0088D193 /* SCBottomPushView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBottomPushView.h; sourceTree = "<group>"; };
+		18DFA40B217478BC0088D193 /* SCBottomPushView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBottomPushView.m; sourceTree = "<group>"; };
+		18DFA40E21747AB90088D193 /* MOLClipMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOLClipMusicView.m; sourceTree = "<group>"; };
+		18DFA40F21747AB90088D193 /* MOLClipMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOLClipMusicView.h; sourceTree = "<group>"; };
+		18DFA41121747B1F0088D193 /* TEST_SCBottomPushViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEST_SCBottomPushViewVC.h; sourceTree = "<group>"; };
+		18DFA41221747B1F0088D193 /* TEST_SCBottomPushViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEST_SCBottomPushViewVC.m; sourceTree = "<group>"; };
 		64112A25213795D70045517F /* WSCTOOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSCTOOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64112A28213795D70045517F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64112A29213795D70045517F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,22 +128,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18DFA3C221743D3D0088D193 /* 学习 */ = {
+		18DFA3C221743D3D0088D193 /* learn */ = {
 			isa = PBXGroup;
 			children = (
+				18DFA409217478450088D193 /* SCBottomPushView */,
+				18DFA402217472C30088D193 /* UIView+layout */,
 				18DFA3C321743D3D0088D193 /* 横向分页横向滚动的collectionView */,
 				18DFA3C821743D3D0088D193 /* UIBezierPath */,
 			);
-			path = "学习";
+			path = learn;
 			sourceTree = "<group>";
 		};
 		18DFA3C321743D3D0088D193 /* 横向分页横向滚动的collectionView */ = {
 			isa = PBXGroup;
 			children = (
 				18DFA3C421743D3D0088D193 /* ELCVFlowLayout.h */,
-				18DFA3C521743D3D0088D193 /* ELCVViewController.m */,
-				18DFA3C621743D3D0088D193 /* ELCVViewController.h */,
 				18DFA3C721743D3D0088D193 /* ELCVFlowLayout.m */,
+				18DFA3C621743D3D0088D193 /* ELCVViewController.h */,
+				18DFA3C521743D3D0088D193 /* ELCVViewController.m */,
 			);
 			path = "横向分页横向滚动的collectionView";
 			sourceTree = "<group>";
@@ -123,9 +153,9 @@
 		18DFA3C821743D3D0088D193 /* UIBezierPath */ = {
 			isa = PBXGroup;
 			children = (
-				18DFA3C921743D3D0088D193 /* testBezierPathVC.m */,
 				18DFA3CA21743D3D0088D193 /* view */,
 				18DFA3CD21743D3D0088D193 /* testBezierPathVC.h */,
+				18DFA3C921743D3D0088D193 /* testBezierPathVC.m */,
 			);
 			path = UIBezierPath;
 			sourceTree = "<group>";
@@ -169,6 +199,30 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		18DFA402217472C30088D193 /* UIView+layout */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA403217473190088D193 /* UIView+layout.h */,
+				18DFA404217473190088D193 /* UIView+layout.m */,
+				18DFA4062174745B0088D193 /* testlayoutVC.h */,
+				18DFA4072174745B0088D193 /* testlayoutVC.m */,
+			);
+			path = "UIView+layout";
+			sourceTree = "<group>";
+		};
+		18DFA409217478450088D193 /* SCBottomPushView */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA40A217478BC0088D193 /* SCBottomPushView.h */,
+				18DFA40B217478BC0088D193 /* SCBottomPushView.m */,
+				18DFA40F21747AB90088D193 /* MOLClipMusicView.h */,
+				18DFA40E21747AB90088D193 /* MOLClipMusicView.m */,
+				18DFA41121747B1F0088D193 /* TEST_SCBottomPushViewVC.h */,
+				18DFA41221747B1F0088D193 /* TEST_SCBottomPushViewVC.m */,
+			);
+			path = SCBottomPushView;
+			sourceTree = "<group>";
+		};
 		64112A1C213795D70045517F = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +246,7 @@
 		64112A27213795D70045517F /* WSCTOOL */ = {
 			isa = PBXGroup;
 			children = (
-				18DFA3C221743D3D0088D193 /* 学习 */,
+				18DFA3C221743D3D0088D193 /* learn */,
 				18DFA3CE21743D3D0088D193 /* PCH */,
 				18DFA3D221743D3D0088D193 /* Utility */,
 				64112A5A213795E30045517F /* AppDelegate */,
@@ -252,6 +306,7 @@
 				64112A21213795D70045517F /* Sources */,
 				64112A22213795D70045517F /* Frameworks */,
 				64112A23213795D70045517F /* Resources */,
+				18DFA4002174484F0088D193 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,7 +435,12 @@
 				64112A2D213795D70045517F /* ViewController.m in Sources */,
 				64112A38213795D80045517F /* main.m in Sources */,
 				64112A2A213795D70045517F /* AppDelegate.m in Sources */,
+				18DFA41321747B1F0088D193 /* TEST_SCBottomPushViewVC.m in Sources */,
+				18DFA41021747AB90088D193 /* MOLClipMusicView.m in Sources */,
+				18DFA405217473190088D193 /* UIView+layout.m in Sources */,
+				18DFA4082174745B0088D193 /* testlayoutVC.m in Sources */,
 				18DFA3DA21743D3D0088D193 /* ELCVFlowLayout.m in Sources */,
+				18DFA40C217478BC0088D193 /* SCBottomPushView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

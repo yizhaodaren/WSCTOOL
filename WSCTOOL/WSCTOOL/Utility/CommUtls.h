@@ -46,4 +46,14 @@
 
 //打印字体的类型
 +(void)showFontType;
+//把秒转换成 分秒 03:45
++(NSString *)convertToMSStringWithS:(NSTimeInterval)time;
+// 获得Info.plist数据字典
++(NSDictionary *)getInfoDictionary;
+
+
+//改变图片的颜色
++(UIImage *)Chanage:(UIImage *)image WithColor:(UIColor *)color;
+// 获取视频／音频文件的总时长
++ (CGFloat)getFileDuration:(NSURL*)URL;
 @end
