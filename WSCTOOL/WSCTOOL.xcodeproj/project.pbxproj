@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DFA3D921743D3D0088D193 /* ELCVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3C521743D3D0088D193 /* ELCVViewController.m */; };
+		18DFA3DA21743D3D0088D193 /* ELCVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3C721743D3D0088D193 /* ELCVFlowLayout.m */; };
+		18DFA3DB21743D3D0088D193 /* testBezierPathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3C921743D3D0088D193 /* testBezierPathVC.m */; };
+		18DFA3DC21743D3D0088D193 /* testBezierPatihView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3CC21743D3D0088D193 /* testBezierPatihView.m */; };
+		18DFA3DD21743D3D0088D193 /* CommUtls.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3D421743D3D0088D193 /* CommUtls.m */; };
+		18DFA3DE21743D3D0088D193 /* NSString+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3D721743D3D0088D193 /* NSString+time.m */; };
 		64112A2A213795D70045517F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A29213795D70045517F /* AppDelegate.m */; };
 		64112A2D213795D70045517F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64112A2C213795D70045517F /* ViewController.m */; };
 		64112A30213795D70045517F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64112A2E213795D70045517F /* Main.storyboard */; };
@@ -35,6 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18DFA3C421743D3D0088D193 /* ELCVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCVFlowLayout.h; sourceTree = "<group>"; };
+		18DFA3C521743D3D0088D193 /* ELCVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCVViewController.m; sourceTree = "<group>"; };
+		18DFA3C621743D3D0088D193 /* ELCVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCVViewController.h; sourceTree = "<group>"; };
+		18DFA3C721743D3D0088D193 /* ELCVFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCVFlowLayout.m; sourceTree = "<group>"; };
+		18DFA3C921743D3D0088D193 /* testBezierPathVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testBezierPathVC.m; sourceTree = "<group>"; };
+		18DFA3CB21743D3D0088D193 /* testBezierPatihView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testBezierPatihView.h; sourceTree = "<group>"; };
+		18DFA3CC21743D3D0088D193 /* testBezierPatihView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testBezierPatihView.m; sourceTree = "<group>"; };
+		18DFA3CD21743D3D0088D193 /* testBezierPathVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testBezierPathVC.h; sourceTree = "<group>"; };
+		18DFA3CF21743D3D0088D193 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		18DFA3D021743D3D0088D193 /* WSCDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCDefine.h; sourceTree = "<group>"; };
+		18DFA3D121743D3D0088D193 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18DFA3D321743D3D0088D193 /* CommUtls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommUtls.h; sourceTree = "<group>"; };
+		18DFA3D421743D3D0088D193 /* CommUtls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommUtls.m; sourceTree = "<group>"; };
+		18DFA3D621743D3D0088D193 /* NSString+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+time.h"; sourceTree = "<group>"; };
+		18DFA3D721743D3D0088D193 /* NSString+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+time.m"; sourceTree = "<group>"; };
+		18DFA3D821743D3D0088D193 /* NSString+SSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSS.h"; sourceTree = "<group>"; };
 		64112A25213795D70045517F /* WSCTOOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSCTOOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64112A28213795D70045517F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64112A29213795D70045517F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +100,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18DFA3C221743D3D0088D193 /* 学习 */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA3C321743D3D0088D193 /* 横向分页横向滚动的collectionView */,
+				18DFA3C821743D3D0088D193 /* UIBezierPath */,
+			);
+			path = "学习";
+			sourceTree = "<group>";
+		};
+		18DFA3C321743D3D0088D193 /* 横向分页横向滚动的collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA3C421743D3D0088D193 /* ELCVFlowLayout.h */,
+				18DFA3C521743D3D0088D193 /* ELCVViewController.m */,
+				18DFA3C621743D3D0088D193 /* ELCVViewController.h */,
+				18DFA3C721743D3D0088D193 /* ELCVFlowLayout.m */,
+			);
+			path = "横向分页横向滚动的collectionView";
+			sourceTree = "<group>";
+		};
+		18DFA3C821743D3D0088D193 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA3C921743D3D0088D193 /* testBezierPathVC.m */,
+				18DFA3CA21743D3D0088D193 /* view */,
+				18DFA3CD21743D3D0088D193 /* testBezierPathVC.h */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		18DFA3CA21743D3D0088D193 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA3CB21743D3D0088D193 /* testBezierPatihView.h */,
+				18DFA3CC21743D3D0088D193 /* testBezierPatihView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18DFA3CE21743D3D0088D193 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA3CF21743D3D0088D193 /* Header.h */,
+				18DFA3D021743D3D0088D193 /* WSCDefine.h */,
+				18DFA3D121743D3D0088D193 /* PrefixHeader.pch */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		18DFA3D221743D3D0088D193 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA3D321743D3D0088D193 /* CommUtls.h */,
+				18DFA3D421743D3D0088D193 /* CommUtls.m */,
+				18DFA3D521743D3D0088D193 /* Categories */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		18DFA3D521743D3D0088D193 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA3D621743D3D0088D193 /* NSString+time.h */,
+				18DFA3D721743D3D0088D193 /* NSString+time.m */,
+				18DFA3D821743D3D0088D193 /* NSString+SSS.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		64112A1C213795D70045517F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +192,9 @@
 		64112A27213795D70045517F /* WSCTOOL */ = {
 			isa = PBXGroup;
 			children = (
+				18DFA3C221743D3D0088D193 /* 学习 */,
+				18DFA3CE21743D3D0088D193 /* PCH */,
+				18DFA3D221743D3D0088D193 /* Utility */,
 				64112A5A213795E30045517F /* AppDelegate */,
 				64112A5B213795F70045517F /* Main */,
 			);
@@ -142,8 +236,8 @@
 				64112A2E213795D70045517F /* Main.storyboard */,
 				64112A31213795D80045517F /* Assets.xcassets */,
 				64112A33213795D80045517F /* LaunchScreen.storyboard */,
-				64112A36213795D80045517F /* Info.plist */,
 				64112A37213795D80045517F /* main.m */,
+				64112A36213795D80045517F /* Info.plist */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -278,9 +372,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DFA3DC21743D3D0088D193 /* testBezierPatihView.m in Sources */,
+				18DFA3DD21743D3D0088D193 /* CommUtls.m in Sources */,
+				18DFA3DB21743D3D0088D193 /* testBezierPathVC.m in Sources */,
+				18DFA3D921743D3D0088D193 /* ELCVViewController.m in Sources */,
+				18DFA3DE21743D3D0088D193 /* NSString+time.m in Sources */,
 				64112A2D213795D70045517F /* ViewController.m in Sources */,
 				64112A38213795D80045517F /* main.m in Sources */,
 				64112A2A213795D70045517F /* AppDelegate.m in Sources */,
+				18DFA3DA21743D3D0088D193 /* ELCVFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +550,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WSCTOOL/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WSCTOOL/PCH/PrefixHeader.pch";
+				INFOPLIST_FILE = WSCTOOL/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +567,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WSCTOOL/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WSCTOOL/PCH/PrefixHeader.pch";
+				INFOPLIST_FILE = WSCTOOL/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
