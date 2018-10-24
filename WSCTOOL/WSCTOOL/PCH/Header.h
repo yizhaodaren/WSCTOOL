@@ -15,4 +15,5 @@
 #import "ELCVViewController.h"
 #import "testlayoutVC.h"
 #import "TEST_SCBottomPushViewVC.h"
+#import "WSClxClickViewController.h"
 #endif /* Header_h */

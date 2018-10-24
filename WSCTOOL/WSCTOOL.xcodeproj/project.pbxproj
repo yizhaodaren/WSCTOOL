@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18560E7521805F47008482F5 /* WSClxClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18560E7321805F47008482F5 /* WSClxClickViewController.m */; };
+		18560E7621805F47008482F5 /* WSClxClickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18560E7421805F47008482F5 /* WSClxClickViewController.xib */; };
 		18DFA3D921743D3D0088D193 /* ELCVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3C521743D3D0088D193 /* ELCVViewController.m */; };
 		18DFA3DA21743D3D0088D193 /* ELCVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3C721743D3D0088D193 /* ELCVFlowLayout.m */; };
 		18DFA3DB21743D3D0088D193 /* testBezierPathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3C921743D3D0088D193 /* testBezierPathVC.m */; };
@@ -59,6 +61,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18560E7221805F47008482F5 /* WSClxClickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSClxClickViewController.h; sourceTree = "<group>"; };
+		18560E7321805F47008482F5 /* WSClxClickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSClxClickViewController.m; sourceTree = "<group>"; };
+		18560E7421805F47008482F5 /* WSClxClickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WSClxClickViewController.xib; sourceTree = "<group>"; };
 		18DFA3C421743D3D0088D193 /* ELCVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCVFlowLayout.h; sourceTree = "<group>"; };
 		18DFA3C521743D3D0088D193 /* ELCVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCVViewController.m; sourceTree = "<group>"; };
 		18DFA3C621743D3D0088D193 /* ELCVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCVViewController.h; sourceTree = "<group>"; };
@@ -128,9 +133,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18560E6D21805EC7008482F5 /* 防止连续点击 */ = {
+			isa = PBXGroup;
+			children = (
+				18560E7221805F47008482F5 /* WSClxClickViewController.h */,
+				18560E7321805F47008482F5 /* WSClxClickViewController.m */,
+				18560E7421805F47008482F5 /* WSClxClickViewController.xib */,
+			);
+			path = "防止连续点击";
+			sourceTree = "<group>";
+		};
 		18DFA3C221743D3D0088D193 /* learn */ = {
 			isa = PBXGroup;
 			children = (
+				18560E6D21805EC7008482F5 /* 防止连续点击 */,
 				18DFA409217478450088D193 /* SCBottomPushView */,
 				18DFA402217472C30088D193 /* UIView+layout */,
 				18DFA3C321743D3D0088D193 /* 横向分页横向滚动的collectionView */,
@@ -403,6 +419,7 @@
 				64112A35213795D80045517F /* LaunchScreen.storyboard in Resources */,
 				64112A32213795D80045517F /* Assets.xcassets in Resources */,
 				64112A30213795D70045517F /* Main.storyboard in Resources */,
+				18560E7621805F47008482F5 /* WSClxClickViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +451,7 @@
 				18DFA3DE21743D3D0088D193 /* NSString+time.m in Sources */,
 				64112A2D213795D70045517F /* ViewController.m in Sources */,
 				64112A38213795D80045517F /* main.m in Sources */,
+				18560E7521805F47008482F5 /* WSClxClickViewController.m in Sources */,
 				64112A2A213795D70045517F /* AppDelegate.m in Sources */,
 				18DFA41321747B1F0088D193 /* TEST_SCBottomPushViewVC.m in Sources */,
 				18DFA41021747AB90088D193 /* MOLClipMusicView.m in Sources */,
