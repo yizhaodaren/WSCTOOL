@@ -16,4 +16,5 @@
 #import "testlayoutVC.h"
 #import "TEST_SCBottomPushViewVC.h"
 #import "WSClxClickViewController.h"
+#import "TEST_TARGET_IPHONE_SIMULATORVC.h"
 #endif /* Header_h */

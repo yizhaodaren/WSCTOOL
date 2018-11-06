@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		183178D4218345E700981130 /* TEST_runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 183178D3218345E700981130 /* TEST_runtime.m */; };
+		18390C8621846DE3001A9E50 /* MOLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18390C8521846DE3001A9E50 /* MOLPageControl.m */; };
+		183F30B0218D783A004392FC /* TEST_TARGET_IPHONE_SIMULATORVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F30AF218D783A004392FC /* TEST_TARGET_IPHONE_SIMULATORVC.m */; };
 		18560E7521805F47008482F5 /* WSClxClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18560E7321805F47008482F5 /* WSClxClickViewController.m */; };
 		18560E7621805F47008482F5 /* WSClxClickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18560E7421805F47008482F5 /* WSClxClickViewController.xib */; };
 		18DFA3D921743D3D0088D193 /* ELCVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA3C521743D3D0088D193 /* ELCVViewController.m */; };
@@ -64,6 +66,10 @@
 /* Begin PBXFileReference section */
 		183178D2218345E700981130 /* TEST_runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEST_runtime.h; sourceTree = "<group>"; };
 		183178D3218345E700981130 /* TEST_runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEST_runtime.m; sourceTree = "<group>"; };
+		18390C8421846DE3001A9E50 /* MOLPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOLPageControl.h; sourceTree = "<group>"; };
+		18390C8521846DE3001A9E50 /* MOLPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOLPageControl.m; sourceTree = "<group>"; };
+		183F30AE218D783A004392FC /* TEST_TARGET_IPHONE_SIMULATORVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEST_TARGET_IPHONE_SIMULATORVC.h; sourceTree = "<group>"; };
+		183F30AF218D783A004392FC /* TEST_TARGET_IPHONE_SIMULATORVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEST_TARGET_IPHONE_SIMULATORVC.m; sourceTree = "<group>"; };
 		18560E7221805F47008482F5 /* WSClxClickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSClxClickViewController.h; sourceTree = "<group>"; };
 		18560E7321805F47008482F5 /* WSClxClickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSClxClickViewController.m; sourceTree = "<group>"; };
 		18560E7421805F47008482F5 /* WSClxClickViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WSClxClickViewController.xib; sourceTree = "<group>"; };
@@ -145,6 +151,24 @@
 			path = "获取成员变量";
 			sourceTree = "<group>";
 		};
+		18390C8321846DB4001A9E50 /* UIPageControl改变原点间距和大小 */ = {
+			isa = PBXGroup;
+			children = (
+				18390C8421846DE3001A9E50 /* MOLPageControl.h */,
+				18390C8521846DE3001A9E50 /* MOLPageControl.m */,
+			);
+			path = "UIPageControl改变原点间距和大小";
+			sourceTree = "<group>";
+		};
+		183F30AD218D77E0004392FC /* 模拟器真机区分于代码证执行 */ = {
+			isa = PBXGroup;
+			children = (
+				183F30AE218D783A004392FC /* TEST_TARGET_IPHONE_SIMULATORVC.h */,
+				183F30AF218D783A004392FC /* TEST_TARGET_IPHONE_SIMULATORVC.m */,
+			);
+			path = "模拟器真机区分于代码证执行";
+			sourceTree = "<group>";
+		};
 		18560E6D21805EC7008482F5 /* 防止连续点击 */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +182,8 @@
 		18DFA3C221743D3D0088D193 /* learn */ = {
 			isa = PBXGroup;
 			children = (
+				183F30AD218D77E0004392FC /* 模拟器真机区分于代码证执行 */,
+				18390C8321846DB4001A9E50 /* UIPageControl改变原点间距和大小 */,
 				183178D1218345C000981130 /* 获取成员变量 */,
 				18560E6D21805EC7008482F5 /* 防止连续点击 */,
 				18DFA409217478450088D193 /* SCBottomPushView */,
@@ -460,6 +486,7 @@
 				18DFA3DC21743D3D0088D193 /* testBezierPatihView.m in Sources */,
 				18DFA3DD21743D3D0088D193 /* CommUtls.m in Sources */,
 				18DFA3DB21743D3D0088D193 /* testBezierPathVC.m in Sources */,
+				18390C8621846DE3001A9E50 /* MOLPageControl.m in Sources */,
 				18DFA3D921743D3D0088D193 /* ELCVViewController.m in Sources */,
 				18DFA3DE21743D3D0088D193 /* NSString+time.m in Sources */,
 				64112A2D213795D70045517F /* ViewController.m in Sources */,
@@ -470,6 +497,7 @@
 				18DFA41021747AB90088D193 /* MOLClipMusicView.m in Sources */,
 				18DFA405217473190088D193 /* UIView+layout.m in Sources */,
 				183178D4218345E700981130 /* TEST_runtime.m in Sources */,
+				183F30B0218D783A004392FC /* TEST_TARGET_IPHONE_SIMULATORVC.m in Sources */,
 				18DFA4082174745B0088D193 /* testlayoutVC.m in Sources */,
 				18DFA3DA21743D3D0088D193 /* ELCVFlowLayout.m in Sources */,
 				18DFA40C217478BC0088D193 /* SCBottomPushView.m in Sources */,
